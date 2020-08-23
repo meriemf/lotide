@@ -7,11 +7,17 @@ const tail   = require('./tail');
 const middle = require('./middle');
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertArraysEqual: assertArraysEqual,
-  assertEqual: assertEqual,
-  eqArrays: eqArrays,
+  // head:   head,
+  // tail:   tail,
+  // middle: middle,
+  // assertArraysEqual: assertArraysEqual,
+  // assertEqual: assertEqual,
+  // eqArrays: eqArrays,
+  head,
+  tail,
+  middle,
+  assertArraysEqual,
+  assertEqual,
+  eqArrays,
 
 };
